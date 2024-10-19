@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Petlopedia</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,8 +31,8 @@
                 <p class="p-1">sustantivo</p>
                 <p class="p-2">Plural: Gatos Atigrados</p>
                 <p class="p-3"> Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente</p>
-                <div>
-                    <button id="likeButton" onclick="meGusta(this)" class="button2">me gusta</button>
+                <div onclick="alerta1()">
+                    <button id="likeButton" onclick="meGusta1(this)" class="button2">me gusta</button>
                 </div>
             </div>
             <div class="container2">
@@ -40,15 +40,15 @@
                 <p class="p-1">sustantivo</p>
                 <p class="p-2">Plural: Golden Retrievers</p>
                 <p class="p-3">Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</p>
-                <div>
-                    <button id="likeButton" onclick="meGusta(this)" class="button2">me gusta</button>
+                <div onclick="alerta2()">
+                    <button id="likeButton" onclick="meGusta2(this)" class="button2">me gusta</button>
                 </div>
             </div>
         </div>
             <div class="container3">
                 <p class="p-2">Petlopedia está definida por TI</p>
                 <div>
-                    <button id="Remove" onclick="hide(this)" class="button4">Agregar Definición</button>
+                    <button onclick="hide(this)" class="button4">Agregar Definición</button>
                 </div>
             </div>
     </main>
