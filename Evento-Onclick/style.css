@@ -23,14 +23,14 @@
 }
 .container1{
     background-color: #ffffff;
-    width: 50rem;
+    width: 51rem;
     height: 11rem;
     border: 0.1rem solid black;
     margin-top: 1rem;
 }
 .container2{
     background-color: #ffffff;
-    width: 50rem;
+    width: 51rem;
     height: 11rem;
     border: 0.1rem solid black;
     margin-top: 1rem;
@@ -42,6 +42,9 @@
     border: 0.1rem solid black;
     margin-top: 1rem;
     margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .logo a{
