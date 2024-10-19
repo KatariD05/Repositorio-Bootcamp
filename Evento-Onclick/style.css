@@ -70,15 +70,7 @@
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.267);
 }
-/* .button3{
-    background-color: #faffc9;
-    color: black;
-    margin: 0.5rem;
-    padding: 0.2rem;
-    border-radius: 0.5rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.267);
-} */
-.button4{
+.button3{
     background-color: #008100;
     color: #ffffff;
     margin: 0.5rem;
